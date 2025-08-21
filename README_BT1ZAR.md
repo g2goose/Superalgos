@@ -1,5 +1,7 @@
 # bt1zar_superalgos
 
+> **Note**: This repository uses `bt1zar_superalgos_main` as the default branch instead of `master` or `main`.
+
 This is a streamlined version of Superalgos focused on the **Top 3 Unique Features** as identified in the SUPERALGOS_TOP_3_FEATURES_ANALYSIS.md:
 
 ## Core Features Preserved
@@ -25,7 +27,17 @@ All proprietary content and non-essential features were removed while retaining 
 
 - **Removed Projects**: Algorithmic-Trading, Bitcoin-Factory, Community-Plugins, Contributions, Data-Mining, Decentralized-Exchanges, Education, Ethereum, Governance, Local-Storage, Machine-Learning, Open-Storage, Portfolio-Management, Simulation, Social-Bots, TensorFlow, Trading-Signals, User-Apps
 - **Removed Directories**: Build artifacts, installers, documentation exports, Docker files, translations, reports
-- **Removed Files**: Installation scripts, utility scripts, platform-specific configs
+- **Removed Files**: Installation scripts, utility scripts, platform-specific configs, bitcoin-factory HTTP routes and servers
+- **Dead Links Removed**: All references to non-existent Bitcoin-Factory components, broken plugin references, and outdated documentation links
+
+## Recent Cleanup (v1.6.1)
+
+The following dead links and unused references were removed:
+- Bitcoin-Factory HTTP routes and server implementations
+- BitcoinFactoryView Vue component
+- PATH_TO_BITCOIN_FACTORY environment variable
+- Machine Learning Network Service (was part of removed Bitcoin-Factory)
+- Streamlined plugin configuration to only include active projects
 
 ## Quick Start
 

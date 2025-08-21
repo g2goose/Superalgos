@@ -1,28 +1,28 @@
 The use cases for Superalgos Network Nodes are:
 
-1. To enable the communication between software modules to collaborate on the testing of ML models.
-2. To enable the distribution of Trading Signals.
-3. Others in the future.  
+1. To enable communication between software modules for collaborative analysis
+2. To enable the distribution of Trading Signals
+3. To facilitate decentralized social trading features
+4. To support the P2P network infrastructure
 
-At the moment, on this README file we will focus on the use case #1, though part of the explanation is valid to set up a Network Node for other purposed too. 
+At the moment, on this README file we will focus on setting up Network Nodes for general P2P communication, though the explanation is valid for setting up a Network Node for various purposes. 
 
-# :small_orange_diamond: Creating Network Node for Bitcoin Factory.
+# :small_orange_diamond: Creating Network Node for P2P Communication
 
 ## :small_orange_diamond: Introduction
 
+The Superalgos Network enables peer-to-peer communication between software modules and supports the distribution of trading signals and other data.
 
-The Bitcoin factory needs a number of components to run. These components work independently from each other, but in an integrated manner. We can divide these configurations into 4 main sections. 
+Superalgos supports a decentralized Peer 2 Peer network that offers many ways to share and grow trading intelligence. Superalgos Network Nodes live on the open internet and function as access points for the Peer 2 Peer network.
 
-1. [The Test Server Application](https://github.com/Superalgos/Superalgos/blob/develop/Bitcoin-Factory/README.md#the-test-server-application)
-2. [The ML Test Client Application](https://github.com/Superalgos/Superalgos/blob/develop/Bitcoin-Factory/README.md#the-ml-test-client-application)
-3. [The Forecast Client Application](https://github.com/Superalgos/Superalgos/blob/develop/Bitcoin-Factory/README.md#the-forecast-client)
-4. [The Superalgos Network Node](https://github.com/Superalgos/Superalgos/blob/develop/Bitcoin-Factory/README.md#the-superalgos-network-node)
+## :small_orange_diamond: Use Cases
 
-In this readme, network node setup from the 4 components mentioned above, which is required for the Bitcoin Factory to work, will be explained.
+The use cases for Superalgos Network Nodes are:
 
-Superalgos supports a decentralized Peer 2 Peer network that offers many ways to share and grow trading intelligence. Superalgos Network Nodes live on the open internet and function as access points for the Peer 2 Peer network.Theoretically and practically, the network node is the node that provides communication between the clients and the test server.
-
-In the current version, multiple test servers can run (v 0.7), but only one network node can run. Future versions of the Bitcoin factory will be configured to allow multiple network nodes to run.
+1. To enable communication between software modules for collaborative analysis
+2. To enable the distribution of Trading Signals
+3. To facilitate decentralized social trading features
+4. To support the P2P network infrastructure
 
 ## :small_orange_diamond: Getting Started
 
