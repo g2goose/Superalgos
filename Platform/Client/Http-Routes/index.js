@@ -10,7 +10,6 @@ exports.newHttpRoutes = function newHttpRoutes() {
     function addRoutes() {
         const routes = [
             require('./app').newAppRoute(),
-            require('./bitcoin-factory').newBitCoinFactoryRoute(),
             require('./ccxt').newCCXTRoute(),
             require('./chart-layers').newChartLayersRoute(),
             require('./default').newDefaultRoute(),

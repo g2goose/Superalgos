@@ -85,6 +85,8 @@ exports.newNetworkApp = function newNetworkApp() {
                 SA.logger.info('Social Graph Network Service ................................................. Running')
             }
 
+            /*
+            Machine Learning Network Service was part of Bitcoin Factory which has been removed
             if (
                 thisObject.p2pNetworkNode.node.networkServices !== undefined &&
                 thisObject.p2pNetworkNode.node.networkServices.machineLearning !== undefined
@@ -96,6 +98,7 @@ exports.newNetworkApp = function newNetworkApp() {
                 )
                 SA.logger.info('Machine Learning Network Service ............................................. Running')
             }
+            */
 
             if (
                 thisObject.p2pNetworkNode.node.networkServices !== undefined &&

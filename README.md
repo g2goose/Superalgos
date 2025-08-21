@@ -1,4 +1,6 @@
-# :small_orange_diamond: Superalgos 1.6.1
+# :small_orange_diamond: bt1zar_superalgos 1.6.1
+
+> **Note**: This is the streamlined version of Superalgos focused on the **Top 3 Unique Features**. For details about what's included and what was removed, see [README_BT1ZAR.md](README_BT1ZAR.md).
 
 ![contributors](https://img.shields.io/github/contributors-anon/Superalgos/Superalgos?label=Contributors)
 ![pull-activity](https://img.shields.io/github/issues-pr-closed-raw/Superalgos/Superalgos?color=blueviolet)
